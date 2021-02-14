@@ -1,22 +1,10 @@
-# Astrobotany
+# Astropet
 
-![Astrobotany](https://github.com/michael-lazar/astrobotany/workflows/Astrobotany/badge.svg)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+Virtual pets over the [gemini](https://gemini.circumlunar.space/) protocol. A Fork of [Community Garden](https://github.com/michael-lazar/astrobotany) which itself is a fork of [jifunks/botany](https://github.com/jifunks/botany).
 
-A community garden over the [gemini](https://gemini.circumlunar.space/) protocol. Fork of [jifunks/botany](https://github.com/jifunks/botany).
+## WIP
 
-![Astrobotany](title.png)
-
----
-
-<p align="center">
-    🌱&nbsp;•&nbsp;🛰️&nbsp;•&nbsp;🌷&nbsp;•&nbsp;🐝&nbsp;•&nbsp;🚀&nbsp;•&nbsp;🌵&nbsp;•&nbsp;👩‍🚀
-    <strong><a href="gemini://astrobotany.mozz.us">gemini://astrobotany.mozz.us</a></strong>
-    <a href="https://portal.mozz.us/gemini/astrobotany.mozz.us/">(http&nbsp;proxy)</a>
-    🥕&nbsp;•&nbsp;🔭&nbsp;•&nbsp;🌺&nbsp;•&nbsp;👩‍🔬&nbsp;•&nbsp;🌍&nbsp;•&nbsp;👨‍🌾&nbsp;•&nbsp;🌧️
-</p>
-
----
+This project is a WIP current version is still 100% the Astrobotany code.
 
 ## Getting Started
 
@@ -24,8 +12,8 @@ A community garden over the [gemini](https://gemini.circumlunar.space/) protocol
 
 ```bash
 # Setup a fresh virtual environment
-git clone git@github.com:michael-lazar/astrobotany.git
-cd astrobotany
+git clone git@github.com:aaadonai/astropet.git
+cd astropet
 python -m virtualenv venv
 source venv/bin/activate
 
@@ -40,7 +28,7 @@ python main.py
 
 ### Playscii
 
-I use a forked version of the playscii ASCII art program to generate the ``.psci`` files:
+The project uses a forked version of the playscii ASCII art program to generate the ``.psci`` files:
 
 https://github.com/michael-lazar/playscii
 
